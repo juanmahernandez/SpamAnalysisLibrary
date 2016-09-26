@@ -6,7 +6,7 @@
 #' @details
 #' This function creates a model depending on the input, and save it in the file
 #' model.rda
-#' @import caret kernlab randomForest
+#' @import caret kernlab beepr randomForest
 #' @export
 buildModel <- function(spamData) {
 
@@ -24,6 +24,7 @@ buildModel <- function(spamData) {
     confusionMatrix(pr, testing$type)
 
     save(modfitSpam, file = "model/spamModel.rda")
+    beep(4)
 }
 
 
