@@ -2,7 +2,6 @@
 
 export(buildModel)
 export(checkSpam)
-import(beepr)
 import(caret)
 import(dplyr)
 import(kernlab)
