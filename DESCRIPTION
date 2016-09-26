@@ -1,0 +1,8 @@
+Package: SpamAnalysis
+Type: Package
+Title: Spam Analysis
+Version: 0.1.0
+Author: Juan Manuel Hernandez
+Maintainer: Juan Manuel Hernandez <juan_manuelhernandez@hotmail.com>
+Description: This package is an exercise test that helps to identify if a sentence is spam or not.
+License: GPL 3
